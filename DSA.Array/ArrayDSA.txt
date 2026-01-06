@@ -1,0 +1,147 @@
+﻿
+## 🔰 EASY (30 Questions) – *Must-clear foundation*
+
+> Expect **5–8 from this section** in interviews.
+
+### 🔹 Basic Traversal & Logic
+
+1. Find the **largest element** in an array
+2. Find the **second largest** element
+3. Find the **smallest & second smallest**
+4. Check if an array is **sorted**
+5. Reverse an array
+6. Count **even & odd** numbers
+7. Remove **duplicates from sorted array**
+8. Move all **zeros to the end**
+9. Rotate array **left by 1**
+10. Rotate array **right by 1**
+
+### 🔹 Searching & Counting
+
+11. Linear search
+12. Count occurrences of a given number
+13. Find **missing number (1…N)** ⭐
+14. Find **duplicate element**
+15. Find elements greater than average
+
+### 🔹 Math / Brute Force
+
+16. Find sum of all elements
+17. Find product of all elements
+18. Check if array is **palindrome**
+19. Find max consecutive 1s ⭐
+20. Replace every element with greatest on right
+
+### 🔹 Sorting Basics
+
+21. Sort array (without using inbuilt sort)
+22. Bubble sort
+23. Selection sort
+24. Insertion sort
+
+### 🔹 Common Interview Logic
+
+25. Find **frequency of each element**
+26. Print unique elements
+27. Print duplicate elements
+28. Find index of an element
+29. Check if array contains a value
+30. Merge two arrays
+
+---
+
+## ⚡ MEDIUM (20 Questions) – *Most asked in coding rounds*
+
+> **This section decides selection**.
+
+### 🔹 Two Pointer Pattern ⭐⭐⭐
+
+31. Two Sum ⭐⭐⭐
+32. Remove duplicates (unsorted array)
+33. Sort 0s, 1s, and 2s (Dutch National Flag) ⭐⭐⭐
+34. Move negatives to one side
+35. Pair with given sum
+
+### 🔹 Sliding Window Pattern ⭐⭐⭐
+
+36. Maximum subarray sum (Kadane’s Algorithm) ⭐⭐⭐
+37. Longest subarray with given sum
+38. Count subarrays with sum = K
+39. Maximum sum of subarray of size K
+40. Minimum size subarray sum
+
+### 🔹 Prefix Sum / Hashing
+
+41. Equilibrium index ⭐⭐
+42. Subarray with 0 sum ⭐⭐⭐
+43. Find missing & repeating number
+44. Frequency using HashMap
+
+### 🔹 Rotation & Rearrangement
+
+45. Rotate array by K positions
+46. Rearrange array alternately (max, min)
+47. Leaders in array
+48. Majority element (Moore’s Voting Algorithm) ⭐⭐⭐
+
+### 🔹 Searching
+
+49. Binary search
+50. Search in rotated sorted array ⭐⭐⭐
+
+---
+
+## 🔥 HARD (10 Questions) – *Senior / Product company level*
+
+> Asked in **senior roles & strong candidates**
+
+### 🔹 Advanced Patterns
+
+51. Maximum product subarray ⭐⭐⭐
+52. Trapping Rain Water ⭐⭐⭐
+53. Best time to buy & sell stock (multiple transactions) ⭐⭐⭐
+54. Find longest consecutive sequence ⭐⭐⭐
+55. Median of two sorted arrays ⭐⭐⭐
+
+### 🔹 Optimization / Logic Heavy
+
+56. Count inversions in array
+57. Merge intervals
+58. Kth largest element (Quick Select) ⭐⭐
+59. Subarray sum divisible by K
+60. Minimum jumps to reach end ⭐⭐⭐
+
+---
+
+## 📌 MOST IMPORTANT PATTERNS (INTERVIEW GOLD)
+
+| Pattern            | Questions            |
+| ------------------ | -------------------- |
+| Two Pointer        | Two Sum, Sort 0/1/2  |
+| Sliding Window     | Max subarray sum     |
+| Prefix Sum         | Subarray sum = K     |
+| Kadane’s Algorithm | Max subarray         |
+| Hashing            | Duplicate, frequency |
+| Greedy             | Stock buy/sell       |
+| Divide & Conquer   | Median, inversions   |
+
+---
+
+## 🎯 TOP 15 **MOST ASKED** (Do NOT skip)
+
+1. Two Sum
+2. Kadane’s Algorithm
+3. Missing Number
+4. Sort 0s, 1s, 2s
+5. Subarray with given sum
+6. Majority Element
+7. Rotate array by K
+8. Max consecutive 1s
+9. Trapping Rain Water
+10. Best time to buy & sell stock
+11. Search in rotated sorted array
+12. Move zeros to end
+13. Leaders in array
+14. Longest consecutive sequence
+15. Find duplicate element
+

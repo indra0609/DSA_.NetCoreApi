@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DSA.API/DSA.API.csproj" />
+  <Project Path="DSA.Array/DSA.Array.csproj" />
+  <Project Path="DSA.Dictonary/DSA.Dictonary.csproj" />
+  <Project Path="DSA.String/DSA.String.csproj" />
+</Solution>
