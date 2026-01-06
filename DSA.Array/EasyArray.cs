@@ -108,5 +108,30 @@ namespace DSA.Array
             return arr;
         }
         #endregion
+
+        #region Move all **zeros to the end**
+        public int[] MoveZerosToEnd(int[] arr)
+        {
+            if (arr.Length == 0 || arr.Length == 1)
+                return arr;
+            int p1 = 0;
+            for (int p2 = 0; p2 < arr.Length; p2++)
+            {
+                if (arr[p2] != 0)
+                {
+                    arr[p1] = arr[p2];
+                    p1++;
+                }
+            }
+            while (p1 < arr.Length)
+            {
+                arr[p1] = 0;
+                p1++;
+            }
+            return arr;
+        }
+
+
+        #endregion
     }
 }

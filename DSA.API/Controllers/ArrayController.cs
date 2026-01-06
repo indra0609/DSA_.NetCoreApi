@@ -60,6 +60,14 @@ namespace DSA.API.Controllers
         {
             return Ok(easyArray.RemoveDuplicatesFromSortedArray(arr));
         }
+
+        //Move all **zeros to the end**
+        [Route("MoveZerosToEnd")]
+        [HttpPost]
+        public IActionResult MoveZerosToEnd(int[] arr)
+        {
+            return Ok(easyArray.MoveZerosToEnd(arr));
+        }
         #endregion
 
         #endregion
