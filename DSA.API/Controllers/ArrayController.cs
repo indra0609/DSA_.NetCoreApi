@@ -78,6 +78,13 @@ namespace DSA.API.Controllers
         }
         #endregion
 
+        //Check if array is **palindrome**
+        [Route("IsArrayPalindrome")]
+        [HttpPost]
+        public IActionResult IsArrayPalindrome(int[] arr)
+        {
+            return Ok(easyArray.IsArrayPalindrome(arr));
+        }
         #endregion
     }
 }

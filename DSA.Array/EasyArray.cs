@@ -148,5 +148,23 @@ namespace DSA.Array
             return arr;
         }
         #endregion
+
+        #region Check if array is **palindrome**
+        public bool IsArrayPalindrome(int[] arr)
+        {
+            if (arr.Length == 0 || arr.Length == 1)
+                return true;
+            int start = 0;
+            int end = arr.Length - 1;
+            while (start < end)
+            {
+                if (arr[start] != arr[end])
+                    return false;
+                start++;
+                end--;
+            }
+            return true;
+        }
+        #endregion
     }
 }
