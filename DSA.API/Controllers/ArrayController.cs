@@ -79,7 +79,7 @@ namespace DSA.API.Controllers
         #endregion
 
 
-        #region Searching & Counting
+        #region Math / Brute Force
         //Find sum of all elements
         [Route("FindSumOfAllElements")]
         [HttpPost]
@@ -95,6 +95,15 @@ namespace DSA.API.Controllers
         {
             return Ok(easyArray.IsArrayPalindrome(arr));
         }
+
+        //Find max consecutive 1s ⭐
+        [Route("FindMaxConsecutiveOnes")]
+        [HttpPost]
+        public IActionResult FindMaxConsecutiveOnes(int[] arr)
+        {
+            return Ok(easyArray.FindMaxConsecutiveOnes(arr));
+        }
+
         #endregion
 
 

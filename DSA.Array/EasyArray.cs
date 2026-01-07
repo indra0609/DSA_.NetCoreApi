@@ -178,5 +178,28 @@ namespace DSA.Array
             return true;
         }
         #endregion
+
+        #region Find max consecutive 1s ⭐
+        public int FindMaxConsecutiveOnes(int[] arr)
+        {
+            int maxCount = 0;
+            int currentCount = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] == 1)
+                {
+                    currentCount++;
+                    if (currentCount > maxCount)
+                        maxCount = currentCount;
+                }
+                else
+                {
+                    currentCount = 0;
+                }
+            }
+            return maxCount;
+        }
+
+        #endregion
     }
 }
