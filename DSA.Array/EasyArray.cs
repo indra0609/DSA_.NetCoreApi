@@ -201,5 +201,23 @@ namespace DSA.Array
         }
 
         #endregion
+
+        #region Replace every element with greatest on right
+        //Input: arr = [17,18,5,4,6,1]
+        //Output: [18,6,6,6,1,-1]
+        public int[] ReplaceEveryElementWithGreatestOnRight(int[] arr)
+        {
+            if (arr.Length == 0 || arr.Length == 1)
+                return arr;
+            int maxRight = -1;
+            for (int i = arr.Length - 1; i >= 0; i--)
+            {
+                int current = arr[i];
+                arr[i] = maxRight;
+                maxRight = Math.Max(current, maxRight);
+            }
+            return arr;
+        }
+        #endregion
     }
 }

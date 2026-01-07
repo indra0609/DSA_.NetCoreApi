@@ -104,6 +104,14 @@ namespace DSA.API.Controllers
             return Ok(easyArray.FindMaxConsecutiveOnes(arr));
         }
 
+        // Replace every element with greatest on right
+        [Route("ReplaceElementsWithGreatestOnRight")]
+        [HttpPost]
+        public IActionResult ReplaceElementsWithGreatestOnRight(int[] arr)
+        {
+            return Ok(easyArray.ReplaceEveryElementWithGreatestOnRight(arr));
+        }
+
         #endregion
 
 
