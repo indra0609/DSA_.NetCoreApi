@@ -149,6 +149,18 @@ namespace DSA.Array
         }
         #endregion
 
+        #region Find sum of all elements
+        public int FindSumOfAllElements(int[] arr)
+        {
+            int sum = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                sum += arr[i];
+            }
+            return sum;
+        }
+        #endregion
+
         #region Check if array is **palindrome**
         public bool IsArrayPalindrome(int[] arr)
         {

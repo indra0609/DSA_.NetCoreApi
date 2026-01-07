@@ -78,6 +78,16 @@ namespace DSA.API.Controllers
         }
         #endregion
 
+
+        #region Searching & Counting
+        //Find sum of all elements
+        [Route("FindSumOfAllElements")]
+        [HttpPost]
+        public IActionResult FindSumOfAllElements(int[] arr)
+        {
+            return Ok(easyArray.FindSumOfAllElements(arr));
+        }
+
         //Check if array is **palindrome**
         [Route("IsArrayPalindrome")]
         [HttpPost]
@@ -85,6 +95,9 @@ namespace DSA.API.Controllers
         {
             return Ok(easyArray.IsArrayPalindrome(arr));
         }
+        #endregion
+
+
         #endregion
     }
 }
