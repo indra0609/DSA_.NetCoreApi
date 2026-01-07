@@ -68,6 +68,14 @@ namespace DSA.API.Controllers
         {
             return Ok(easyArray.MoveZerosToEnd(arr));
         }
+
+        //Rotate array **left by 1**
+        [Route("RotateArrayLeftByOne")]
+        [HttpPost]
+        public IActionResult RotateArrayLeftByOne(int[] arr)
+        {
+            return Ok(easyArray.RotateArrayLeftByOne(arr));
+        }
         #endregion
 
         #endregion

@@ -133,5 +133,20 @@ namespace DSA.Array
 
 
         #endregion
+
+        #region Rotate array **left by 1**
+        public int[] RotateArrayLeftByOne(int[] arr)
+        {
+            if (arr.Length == 0 || arr.Length == 1)
+                return arr;
+            int first = arr[0];
+            for (int i = 1; i < arr.Length; i++)
+            {
+                arr[i - 1] = arr[i];
+            }
+            arr[arr.Length - 1] = first;
+            return arr;
+        }
+        #endregion
     }
 }
