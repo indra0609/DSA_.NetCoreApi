@@ -112,6 +112,13 @@ namespace DSA.API.Controllers
             return Ok(easyArray.ReplaceEveryElementWithGreatestOnRight(arr));
         }
 
+        // count-elements-with-maximum-frequency
+        [Route("CountElementsWithMaximumFrequency")]
+        [HttpPost]
+        public IActionResult CountElementsWithMaximumFrequency(int[] arr)
+        {
+            return Ok(easyArray.MaxFrequencyElements(arr));
+        }
         #endregion
 
 
