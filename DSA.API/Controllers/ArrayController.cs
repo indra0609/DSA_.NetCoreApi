@@ -119,6 +119,14 @@ namespace DSA.API.Controllers
         {
             return Ok(easyArray.MaxFrequencyElements(arr));
         }
+
+        // Find sum of unique elements
+        [Route("FindSumOfUniqueElements")]
+        [HttpPost]
+        public IActionResult FindSumOfUniqueElements(int[] arr)
+        {
+            return Ok(easyArray.SumOfUnique(arr));
+        }
         #endregion
 
 

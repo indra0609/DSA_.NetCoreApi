@@ -264,5 +264,29 @@ namespace DSA.Array
             return res;
         }
         #endregion
+
+        #region Find sum of unique elements
+        public int SumOfUnique(int[] nums)
+        {
+            if (nums == null) return 0;
+            Dictionary<int, int> dc = new Dictionary<int, int>();
+            int sum = 0;
+            foreach (int i in nums)
+            {
+                if (dc.ContainsKey(i))
+                {
+                    dc[i]++;
+                    continue;
+                }
+                dc[i] = 1;
+            }
+            foreach (var i in dc)
+            {
+                if (i.Value == 1)
+                    sum += i.Key;
+            }
+            return sum;
+        }
+        #endregion
     }
 }
