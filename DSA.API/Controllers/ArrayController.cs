@@ -1,4 +1,5 @@
-﻿using DSA.Array;
+﻿using DSA.API.Models;
+using DSA.Array;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -127,6 +128,15 @@ namespace DSA.API.Controllers
         {
             return Ok(easyArray.SumOfUnique(arr));
         }
+
+        //merge-sorted-array
+        [Route("MergeSortedArray")]
+        [HttpPost]
+        public IActionResult MergeSortedArray([FromBody] MergeSortedArrayRequest request)
+        {
+            return Ok(easyArray.MergeSortedArray(request.Arr1, request.M, request.Arr2, request.N));
+        }
+
         #endregion
 
 
