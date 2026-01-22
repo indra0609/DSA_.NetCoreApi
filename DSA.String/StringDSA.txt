@@ -1,0 +1,153 @@
+﻿
+---
+
+# ✅ STRING DSA QUESTIONS (TOP 60)
+
+---
+
+## 🟢 EASY (30 Questions) – Must Clear Basics
+
+### 🔹 Basic String Operations
+
+1. Reverse a string ⭐⭐⭐
+2. Reverse each word in a sentence
+3. Check palindrome string ⭐⭐⭐
+4. Count vowels and consonants
+5. Count digits, alphabets, special characters
+6. Convert lowercase to uppercase (without inbuilt function)
+7. Find length of string (without `.Length`)
+8. Remove spaces from string
+9. Remove vowels from string
+10. Replace all spaces with `%20` (URLify)
+
+### 🔹 Character Frequency & Counting
+
+11. Count frequency of each character ⭐⭐⭐
+12. Find first non-repeating character ⭐⭐⭐
+13. Find first repeating character
+14. Find all duplicate characters
+15. Count occurrences of a substring
+
+### 🔹 Substrings / Comparisons
+
+16. Check if two strings are anagrams ⭐⭐⭐
+17. Check if one string is rotation of another ⭐⭐⭐
+18. Check if strings are equal without using `==`
+19. Check if string contains only digits
+20. Remove duplicate characters from string
+
+### 🔹 Pattern / Formatting Basics
+
+21. Capitalize first letter of each word
+22. Remove extra spaces between words
+23. Sort characters in string
+24. Print all characters with ASCII values
+25. Find largest word in sentence
+26. Find smallest word in sentence
+27. Count words in a string
+28. Swap two strings without temp variable
+29. Check if string is pangram
+30. Find missing alphabets in a string
+
+---
+
+## 🟠 MEDIUM (20 Questions) – Most Asked in Coding Rounds
+
+### 🔥 Sliding Window / Two Pointer
+
+31. Longest substring without repeating characters ⭐⭐⭐
+32. Longest repeating character replacement (k changes)
+33. Minimum window substring ⭐⭐⭐
+34. Longest substring with at most K distinct characters
+35. Check if permutation of string exists in another string ⭐⭐⭐
+
+### 🔥 Hashing + Logic
+
+36. Group anagrams ⭐⭐⭐
+37. Find all anagram indices in a string ⭐⭐
+38. Check if string is valid shuffle of another
+39. Check if two strings are isomorphic ⭐⭐⭐
+40. Find longest common prefix ⭐⭐
+
+### 🔥 Stack Based
+
+41. Valid parentheses / balanced brackets ⭐⭐⭐
+42. Remove all adjacent duplicates
+43. Simplify string path (like Unix path) ⭐⭐
+44. Decode string (like `3[a2[c]]`) ⭐⭐⭐
+
+### 🔥 Common Interview Medium
+
+45. String compression (like `"aaabbc" -> "a3b2c1"`) ⭐⭐⭐
+46. Count and say sequence ⭐⭐
+47. Remove minimum brackets to make valid
+48. Check if string can become palindrome by removing 1 char ⭐⭐⭐
+49. Multiply two strings (without converting to integer) ⭐⭐
+50. Implement `strStr()` (substring search) ⭐⭐⭐
+
+---
+
+## 🔴 HARD (10 Questions) – Senior + Product Level
+
+### 🚀 Advanced Sliding Window + HashMap
+
+51. Longest palindromic substring ⭐⭐⭐
+52. Count palindromic substrings ⭐⭐⭐
+53. Minimum window substring (hard version) ⭐⭐⭐
+
+### 🚀 DP / Advanced Logic
+
+54. Edit distance (Levenshtein distance) ⭐⭐⭐
+55. Wildcard pattern matching (`?` and `*`) ⭐⭐⭐
+56. Regular expression matching (`.` and `*`) ⭐⭐⭐
+
+### 🚀 Advanced Parsing / Greedy
+
+57. Smallest window containing all distinct characters ⭐⭐⭐
+58. Find lexicographically smallest string after operations
+59. KMP algorithm (pattern matching) ⭐⭐⭐
+60. Rabin-Karp algorithm ⭐⭐
+
+---
+
+# ✅ MOST IMPORTANT STRING PATTERNS (VERY COMMON)
+
+| Pattern            | Examples                       |
+| ------------------ | ------------------------------ |
+| HashMap frequency  | anagram, non-repeating         |
+| Two Pointer        | palindrome, reverse words      |
+| Sliding Window ⭐⭐⭐ | longest substring, min window  |
+| Stack              | parentheses, remove duplicates |
+| Pattern Matching   | KMP, Rabin Karp                |
+| DP                 | edit distance, regex matching  |
+
+---
+
+# 🎯 TOP 15 MOST ASKED STRING QUESTIONS (Must Do)
+
+1. Reverse string
+2. Palindrome check
+3. Anagram check
+4. String rotation
+5. First non-repeating char
+6. Longest substring without repeating ⭐⭐⭐
+7. Group anagrams ⭐⭐⭐
+8. Valid parentheses ⭐⭐⭐
+9. Minimum window substring ⭐⭐⭐
+10. String compression
+11. `strStr()` / substring search ⭐⭐⭐
+12. Longest palindromic substring ⭐⭐⭐
+13. Decode string `3[a2[c]]` ⭐⭐⭐
+14. Edit distance ⭐⭐⭐
+15. KMP algorithm ⭐⭐⭐
+
+---
+
+If you want ✅ I can now give you:
+
+✅ **C# Code solutions** for all 60 questions
+✅ with **time complexity + space complexity**
+✅ and **interview explanation + patterns wise**
+
+Just say:
+**"Start String Easy Q1 to Q30 in C#"**
