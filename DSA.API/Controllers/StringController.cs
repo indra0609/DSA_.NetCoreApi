@@ -20,6 +20,14 @@ namespace DSA.API.Controllers
         }
         #endregion
 
+        #region reverse-vowels-of-a-string
+        [HttpPost("ReverseVowels")]
+        public IActionResult ReverseVowels([FromBody] string s)
+        {
+            return Ok(easyString.ReverseVowels(s));
+        }
+        #endregion
+
         #endregion
     }
 }
