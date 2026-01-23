@@ -62,5 +62,28 @@ namespace DSA.String
             return false;
         }
         #endregion
+
+        #region valid-anagram
+        public bool IsAnagram(string s, string t)
+        {
+            if (s.Length != t.Length) return false;
+            Dictionary<char, int> dc = new Dictionary<char, int>();
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (dc.ContainsKey(s[i])) dc[s[i]]++;
+                else dc[s[i]] = 1;
+            }
+            for (int i = 0; i < t.Length; i++)
+            {
+                if (dc.ContainsKey(t[i])) dc[t[i]]--;
+                else return false;
+            }
+            foreach (int value in dc.Values)
+            {
+                if (value != 0) return false;
+            }
+            return true;
+        }
+        #endregion
     }
 }

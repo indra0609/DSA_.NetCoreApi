@@ -1,4 +1,5 @@
-﻿using DSA.String;
+﻿using DSA.API.Models;
+using DSA.String;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -28,6 +29,13 @@ namespace DSA.API.Controllers
         }
         #endregion
 
+        #region valid-anagram
+        [HttpPost("IsAnagram")]
+        public IActionResult IsAnagram([FromBody] AnagramRequest request)
+        {
+            return Ok(easyString.IsAnagram(request.s, request.t));
+        }
+        #endregion
         #endregion
     }
 }
