@@ -36,6 +36,14 @@ namespace DSA.API.Controllers
             return Ok(easyString.IsAnagram(request.s, request.t));
         }
         #endregion
+
+        #region first-unique-character-in-a-string
+        [HttpPost("FirstUniqueCharacter")]
+        public IActionResult FirstUniqueCharacter([FromBody] string s)
+        {
+            return Ok(easyString.FirstUniqChar(s));
+        }
+        #endregion
         #endregion
     }
 }

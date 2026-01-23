@@ -85,5 +85,20 @@ namespace DSA.String
             return true;
         }
         #endregion
+
+        #region first-unique-character-in-a-string
+        public int FirstUniqChar(string s)
+        {
+            Dictionary<char, int> dc = new Dictionary<char, int>();
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (dc.ContainsKey(s[i])) dc[s[i]]++;
+                else dc[s[i]] = 1;
+            }
+            for (int i = 0; i < s.Length; i++)
+                if (dc[s[i]] == 1) return i;
+            return -1;
+        }
+        #endregion
     }
 }
