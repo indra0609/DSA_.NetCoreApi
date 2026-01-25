@@ -44,6 +44,14 @@ namespace DSA.API.Controllers
             return Ok(easyString.FirstUniqChar(s));
         }
         #endregion
+
+        #region longest-substring-without-repeating-characters
+        [HttpPost("LengthOfLongestSubstring")]
+        public IActionResult LengthOfLongestSubstring([FromBody] string s)
+        {
+            return Ok(easyString.LengthOfLongestSubstring(s));
+        }   
+        #endregion
         #endregion
     }
 }

@@ -100,5 +100,26 @@ namespace DSA.String
             return -1;
         }
         #endregion
+
+        #region longest-substring-without-repeating-characters ***
+        public int LengthOfLongestSubstring(string s)
+        {
+            if (s == null) return 0;
+            HashSet<char> set = new HashSet<char>();
+            int p1 = 0;
+            int max = 0;
+            for (int p2 = 0; p2 < s.Length; p2++)
+            {
+                while (set.Contains(s[p2]))
+                {
+                    set.Remove(s[p1]);
+                    p1++;
+                }
+                set.Add(s[p2]);
+                max = Math.Max(max, p2 - p1 + 1);
+            }
+            return max;
+        }
+        #endregion
     }
 }
