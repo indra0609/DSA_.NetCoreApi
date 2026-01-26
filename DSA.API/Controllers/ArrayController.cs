@@ -137,6 +137,13 @@ namespace DSA.API.Controllers
             return Ok(easyArray.MergeSortedArray(request.Arr1, request.M, request.Arr2, request.N));
         }
 
+        //two-sum unsorted array
+        [Route("TwoSumUnsortedArray")]
+        [HttpPost]
+        public IActionResult TwoSumUnsortedArray([FromBody] TwoSumUnsortedArrayRequest request)
+        {
+            return Ok(easyArray.TwoSum(request.Arr, request.Target));
+        }
         #endregion
 
 
