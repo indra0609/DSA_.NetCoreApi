@@ -1,0 +1,203 @@
+﻿
+# 🚀 TOP 60 MOST ASKED DSA QUESTIONS
+
+### For Mid / Senior .NET Full Stack Developers
+
+---
+
+## 🟢 ARRAYS & STRINGS (20 Questions – Highest Priority)
+
+> ⚠️ Almost every interview has 2–4 from here.
+
+### Arrays
+
+1. Two Sum ⭐⭐⭐
+2. Maximum Subarray (Kadane) ⭐⭐⭐
+3. Move Zeros
+4. Missing Number
+5. Sort 0s,1s,2s
+6. Rotate Array by K
+7. Majority Element
+8. Subarray Sum = K ⭐⭐⭐
+9. Trapping Rain Water ⭐⭐⭐
+10. Best Time to Buy/Sell Stock ⭐⭐⭐
+
+### Strings
+
+11. Reverse String
+12. Valid Palindrome
+13. Anagram Check ⭐⭐⭐
+14. First Non-Repeating Char
+15. Longest Substring Without Repeating ⭐⭐⭐
+16. Group Anagrams ⭐⭐⭐
+17. String Compression
+18. Valid Parentheses ⭐⭐⭐
+19. Minimum Window Substring ⭐⭐⭐
+20. Longest Palindromic Substring ⭐⭐⭐
+
+---
+
+## 🟠 LINKED LISTS, STACKS, QUEUES (15 Questions)
+
+> ⚠️ Tests pointer logic + memory understanding.
+
+### Linked List
+
+21. Reverse Linked List ⭐⭐⭐
+22. Detect Cycle (Floyd) ⭐⭐⭐
+23. Merge Two Sorted Lists
+24. Remove Nth Node from End ⭐⭐⭐
+25. Find Middle of Linked List
+
+### Stack
+
+26. Valid Parentheses ⭐⭐⭐
+27. Next Greater Element ⭐⭐⭐
+28. Largest Rectangle in Histogram ⭐⭐⭐
+29. Implement Stack using Queue
+30. Min Stack ⭐⭐⭐
+
+### Queue / Deque
+
+31. Sliding Window Maximum ⭐⭐⭐
+32. Implement Queue using Stack
+33. Circular Queue
+
+---
+
+## 🔵 HASHING & SEARCHING (10 Questions)
+
+> ⚠️ Frequently mixed with arrays/strings.
+
+34. Two Sum using HashMap ⭐⭐⭐
+35. Longest Consecutive Sequence ⭐⭐⭐
+36. Subarray with Zero Sum
+37. Top K Frequent Elements ⭐⭐⭐
+38. Kth Largest Element ⭐⭐⭐
+39. Intersection of Two Arrays
+40. LRU Cache Implementation ⭐⭐⭐
+41. Binary Search ⭐⭐⭐
+42. Search in Rotated Array ⭐⭐⭐
+43. Find Duplicate Number ⭐⭐⭐
+
+---
+
+## 🔴 TREES & GRAPHS (10 Questions – Senior Focus)
+
+> ⚠️ Very common in **product companies**.
+
+### Trees
+
+44. Inorder / Preorder / Postorder Traversal ⭐⭐⭐
+45. Maximum Depth of Tree
+46. Lowest Common Ancestor ⭐⭐⭐
+47. Validate BST ⭐⭐⭐
+48. Diameter of Binary Tree ⭐⭐⭐
+49. Level Order Traversal ⭐⭐⭐
+
+### Graphs
+
+50. BFS Traversal ⭐⭐⭐
+51. DFS Traversal ⭐⭐⭐
+52. Detect Cycle in Graph
+53. Number of Islands ⭐⭐⭐
+
+---
+
+## 🟣 DYNAMIC PROGRAMMING & GREEDY (5 Questions – High Value)
+
+> ⚠️ Shows problem-solving maturity.
+
+54. Fibonacci (DP)
+55. Climbing Stairs ⭐⭐⭐
+56. Longest Common Subsequence ⭐⭐⭐
+57. Coin Change ⭐⭐⭐
+58. Edit Distance ⭐⭐⭐
+
+---
+
+## 🟡 SYSTEM-STYLE / REAL-WORLD DSA (Very Important)
+
+> These appear in **senior interviews**.
+
+59. Design Rate Limiter ⭐⭐⭐
+60. Design URL Shortener ⭐⭐⭐
+
+---
+
+# 🎯 TOP 20 “MUST MASTER” (Selection Makers)
+
+If you only do 20, do these:
+
+1. Two Sum
+2. Kadane
+3. Subarray Sum = K
+4. Longest Substring
+5. Group Anagrams
+6. Valid Parentheses
+7. Reverse Linked List
+8. Detect Cycle
+9. Min Stack
+10. Sliding Window Max
+11. LRU Cache
+12. Kth Largest
+13. Binary Search
+14. Rotated Array Search
+15. Tree Traversals
+16. LCA
+17. Number of Islands
+18. Coin Change
+19. Edit Distance
+20. URL Shortener Design
+
+---
+
+# 🧠 WHAT INTERVIEWERS EXPECT (Mid/Senior .NET)
+
+They don’t just want code. They expect:
+
+✅ Clean C# code (no messy LINQ)
+✅ SOLID logic
+✅ O(N) / O(logN) optimization
+✅ Proper classes & methods
+✅ Exception handling thinking
+✅ Memory awareness
+
+Example:
+
+> ❌ Junior: “It works”
+> ✅ Senior: “Time O(N), Space O(1), can optimize further by…”
+
+---
+
+# 📚 PATTERN-WISE LEARNING (Very Important)
+
+| Pattern            | Used In                |
+| ------------------ | ---------------------- |
+| Sliding Window ⭐⭐⭐ | Subarray, substring    |
+| Two Pointer        | Palindrome, sorting    |
+| HashMap ⭐⭐⭐        | Frequency, sums        |
+| Stack              | Parentheses, histogram |
+| BFS/DFS ⭐⭐⭐        | Trees, islands         |
+| DP                 | LCS, coin change       |
+
+---
+
+# 🚀 RECOMMENDED STUDY PLAN (30 Days)
+
+### Week 1
+
+Arrays + Strings
+
+### Week 2
+
+Linked List + Stack
+
+### Week 3
+
+Trees + HashMap
+
+### Week 4
+
+DP + System Design
+

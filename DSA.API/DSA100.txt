@@ -1,0 +1,282 @@
+﻿
+# 🚀 TOP 100 MOST ASKED DSA QUESTIONS
+
+### For Mid / Senior .NET Full Stack Developers
+
+---
+
+## 🟢 ARRAYS & STRINGS (25 Questions – Highest Priority)
+
+1. Two Sum ⭐⭐⭐
+
+2. Maximum Subarray (Kadane) ⭐⭐⭐
+
+3. Move Zeros
+
+4. Missing Number
+
+5. Sort 0s,1s,2s
+
+6. Rotate Array by K
+
+7. Majority Element
+
+8. Subarray Sum = K ⭐⭐⭐
+
+9. Trapping Rain Water ⭐⭐⭐
+
+10. Best Time to Buy/Sell Stock ⭐⭐⭐
+
+11. Reverse String
+
+12. Valid Palindrome
+
+13. Anagram Check ⭐⭐⭐
+
+14. First Non-Repeating Character
+
+15. Longest Substring Without Repeating ⭐⭐⭐
+
+16. Group Anagrams ⭐⭐⭐
+
+17. String Compression
+
+18. Valid Parentheses ⭐⭐⭐
+
+19. Minimum Window Substring ⭐⭐⭐
+
+20. Longest Palindromic Substring ⭐⭐⭐
+
+21. Find Duplicate Number
+
+22. Longest Consecutive Sequence ⭐⭐⭐
+
+23. Remove Duplicates from Sorted Array
+
+24. Implement strStr()
+
+25. Check String Rotation
+
+---
+
+## 🟠 LINKED LISTS, STACKS, QUEUES (20 Questions)
+
+26. Reverse Linked List ⭐⭐⭐
+
+27. Detect Cycle (Floyd’s Algorithm) ⭐⭐⭐
+
+28. Merge Two Sorted Lists
+
+29. Remove Nth Node from End ⭐⭐⭐
+
+30. Find Middle of Linked List
+
+31. Intersection of Two Linked Lists
+
+32. Palindrome Linked List
+
+33. Add Two Numbers (LL) ⭐⭐⭐
+
+34. Min Stack ⭐⭐⭐
+
+35. Valid Parentheses (Stack)
+
+36. Next Greater Element ⭐⭐⭐
+
+37. Largest Rectangle in Histogram ⭐⭐⭐
+
+38. Sliding Window Maximum ⭐⭐⭐
+
+39. Implement Stack using Queue
+
+40. Implement Queue using Stack
+
+41. LRU Cache ⭐⭐⭐
+
+42. Circular Queue
+
+43. Stock Span Problem
+
+44. First Negative in Window
+
+45. Design Deque
+
+---
+
+## 🔵 HASHING, SEARCHING, SORTING (20 Questions)
+
+46. Binary Search ⭐⭐⭐
+
+47. Search in Rotated Sorted Array ⭐⭐⭐
+
+48. Kth Largest Element ⭐⭐⭐
+
+49. Top K Frequent Elements ⭐⭐⭐
+
+50. Merge Intervals ⭐⭐⭐
+
+51. Find Peak Element
+
+52. Count Inversions
+
+53. Intersection of Arrays
+
+54. Subarray with Zero Sum
+
+55. Find All Duplicates
+
+56. Frequency Count Using HashMap
+
+57. Find Missing & Repeating
+
+58. Sort Characters by Frequency
+
+59. Median of Two Sorted Arrays ⭐⭐⭐
+
+60. Quick Select Algorithm ⭐⭐⭐
+
+61. Heap Sort
+
+62. Merge Sort
+
+63. Radix Sort
+
+64. Bucket Sort
+
+65. Search Insert Position
+
+---
+
+## 🔴 TREES & GRAPHS (20 Questions – Senior Focus)
+
+66. Inorder Traversal ⭐⭐⭐
+
+67. Preorder Traversal
+
+68. Postorder Traversal
+
+69. Level Order Traversal ⭐⭐⭐
+
+70. Zigzag Traversal
+
+71. Maximum Depth of Tree
+
+72. Diameter of Binary Tree ⭐⭐⭐
+
+73. Validate BST ⭐⭐⭐
+
+74. Lowest Common Ancestor ⭐⭐⭐
+
+75. Symmetric Tree
+
+76. Convert Sorted Array to BST
+
+77. Path Sum
+
+78. Boundary Traversal
+
+79. Vertical Order Traversal
+
+80. Kth Smallest in BST ⭐⭐⭐
+
+81. BFS in Graph ⭐⭐⭐
+
+82. DFS in Graph ⭐⭐⭐
+
+83. Detect Cycle (Graph)
+
+84. Number of Islands ⭐⭐⭐
+
+85. Rotten Oranges
+
+---
+
+## 🟣 DYNAMIC PROGRAMMING & GREEDY (10 Questions)
+
+86. Fibonacci (DP)
+
+87. Climbing Stairs ⭐⭐⭐
+
+88. Longest Common Subsequence ⭐⭐⭐
+
+89. Longest Increasing Subsequence ⭐⭐⭐
+
+90. Coin Change ⭐⭐⭐
+
+91. Edit Distance ⭐⭐⭐
+
+92. House Robber ⭐⭐⭐
+
+93. Knapsack (0/1) ⭐⭐⭐
+
+94. Partition Equal Subset
+
+95. Jump Game ⭐⭐⭐
+
+---
+
+## 🟡 SYSTEM / DESIGN-STYLE DSA (5 Questions)
+
+96. Design LRU Cache ⭐⭐⭐
+97. Design Rate Limiter ⭐⭐⭐
+98. Design URL Shortener ⭐⭐⭐
+99. Design Logger System
+100. Design Parking System
+
+---
+
+# 🎯 TOP 25 “INTERVIEW KILLER” QUESTIONS
+
+If you master these → high selection chance:
+
+1. Two Sum
+
+2. Kadane
+
+3. Subarray Sum = K
+
+4. Longest Substring
+
+5. Group Anagrams
+
+6. Min Window
+
+7. Reverse LL
+
+8. Detect Cycle
+
+9. Add Two Numbers
+
+10. Min Stack
+
+11. Sliding Window Max
+
+12. LRU Cache
+
+13. Binary Search
+
+14. Rotated Search
+
+15. Merge Intervals
+
+16. Tree Traversals
+
+17. LCA
+
+18. Number of Islands
+
+19. Coin Change
+
+20. Edit Distance
+
+21. LIS
+
+22. Knapsack
+
+23. Jump Game
+
+24. Median Arrays
+
+25. URL Shortener
+
+---
