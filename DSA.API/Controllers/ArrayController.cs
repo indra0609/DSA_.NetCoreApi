@@ -144,6 +144,13 @@ namespace DSA.API.Controllers
         {
             return Ok(easyArray.TwoSum(request.Arr, request.Target));
         }
+
+        //maximum-subarray
+        [HttpPost("MaximumSubarraySum")]
+        public IActionResult MaximumSubarraySum(int[] arr)
+        {
+            return Ok(easyArray.MaxSubArraySum(arr));
+        }
         #endregion
 
 

@@ -363,5 +363,33 @@ namespace DSA.Array
         }
         #endregion
 
+        #region maximum-subarray
+        public int MaxSubArraySum(int[] nums)
+        {
+            if (nums == null)
+                return -1;
+            int maxSum = nums[0];
+            int currentSum = nums[0];
+            for (int i = 1; i < nums.Length; i++)
+            {
+                if (currentSum + nums[i] > nums[i])
+                {
+                    currentSum += nums[i];
+                }
+                else
+                {
+                    currentSum = nums[i];
+                }
+
+                if (currentSum > maxSum)
+                {
+                    maxSum = currentSum;
+                }
+            }
+            return maxSum;
+        }
+        #endregion
+
+
     }
 }
