@@ -390,6 +390,39 @@ namespace DSA.Array
         }
         #endregion
 
-
+        #region majority-element more then n/2 times
+        public int MajorityElement(int[] nums)
+        {
+            int element = nums[0];
+            int count = 1;
+            for (int i = 1; i < nums.Length; i++)
+            {
+                if (nums[i] == element)
+                {
+                    count++;
+                }
+                else
+                {
+                    if (count <= 1)
+                    {
+                        element = nums[i];
+                        count = 1;
+                    }
+                    else
+                        count--;
+                }
+            }
+            count = 0;
+            foreach (int i in nums)
+            {
+                if (element == i)
+                    count++;
+            }
+            if (count > nums.Length / 2)
+                return element;
+            else
+                return -1;
+        }
+        #endregion
     }
 }

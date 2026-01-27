@@ -151,6 +151,13 @@ namespace DSA.API.Controllers
         {
             return Ok(easyArray.MaxSubArraySum(arr));
         }
+
+        //majority-element
+        [HttpPost("MajorityElement")]
+        public IActionResult MajorityElement(int[] arr)
+        {
+            return Ok(easyArray.MajorityElement(arr));
+        }
         #endregion
 
 
