@@ -201,3 +201,5 @@ Trees + HashMap
 
 DP + System Design
 
+
+prefix sum approach for subarray sum problems

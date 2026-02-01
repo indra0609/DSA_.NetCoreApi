@@ -16,5 +16,13 @@ namespace DSA.API.Controllers
             return Ok(easyStack.IsValidparentheses(s));
         }
         #endregion
+
+        #region next-greater-element-i
+        [HttpPost("NextGreaterElement")]
+        public IActionResult NextGreaterElement([FromBody] int[][] nums)
+        {
+            return Ok(easyStack.NextGreaterElement(nums[0], nums[1]));
+        }
+        #endregion
     }
 }
