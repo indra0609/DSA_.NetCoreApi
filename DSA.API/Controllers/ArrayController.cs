@@ -158,6 +158,13 @@ namespace DSA.API.Controllers
         {
             return Ok(easyArray.MajorityElement(arr));
         }
+
+        // missing-number
+        [HttpPost("MissingNumber")]
+        public IActionResult MissingNumber(int[] arr)
+        {
+            return Ok(easyArray.MissingNumber(arr));
+        }
         #endregion
 
 

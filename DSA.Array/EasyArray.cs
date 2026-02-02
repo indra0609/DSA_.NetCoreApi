@@ -424,5 +424,23 @@ namespace DSA.Array
                 return -1;
         }
         #endregion
+
+        #region missing-number
+        public int MissingNumber(int[] nums)
+        {
+            if (nums == null)
+                return -1;
+            int length = nums.Length;
+            int total = (length * (length + 1)) / 2;
+            int sum = 0;
+
+            foreach (int a in nums)
+            {
+                sum += a;
+            }
+
+            return total - sum;
+        }
+        #endregion
     }
 }
