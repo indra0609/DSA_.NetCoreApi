@@ -10,6 +10,7 @@ namespace DSA.API.Controllers
     public class ArrayController : ControllerBase
     {
         EasyArray easyArray = new EasyArray();
+        MediumArray mediumArray = new MediumArray();
         #region
         #region Basic Traversal & Logic
 
@@ -167,6 +168,21 @@ namespace DSA.API.Controllers
         }
         #endregion
 
+
+        #endregion
+
+        #region Medium Array Problems
+
+        #region sort-colors
+        //sort-colors
+        [Route("SortColors")]
+        [HttpPost]
+        public IActionResult SortColors(int[] arr)
+        {
+            mediumArray.SortColors(arr);
+            return Ok(arr);
+        }
+        #endregion
 
         #endregion
     }
