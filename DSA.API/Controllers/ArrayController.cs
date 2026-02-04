@@ -182,6 +182,15 @@ namespace DSA.API.Controllers
             mediumArray.SortColors(arr);
             return Ok(arr);
         }
+
+        //rotate-array by K
+        [Route("RotateArrayByK")]
+        [HttpPost]
+        public IActionResult RotateArrayByK([FromBody] RotateArrayByKRequest request)
+        {
+            mediumArray.Rotate(request.Arr, request.K);
+            return Ok(request.Arr);
+        }
         #endregion
 
         #endregion

@@ -54,5 +54,30 @@ namespace DSA.Array
             nums[j] = temp;
         }
         #endregion
+
+        #region rotate-array by K
+        public void Rotate(int[] nums, int k)
+        {
+            if (nums.Length < k)
+            {
+                k = k % nums.Length;
+            }
+            ReverseArray(nums, 0, nums.Length - k - 1);
+            ReverseArray(nums, nums.Length - k, nums.Length - 1);
+            ReverseArray(nums, 0, nums.Length - 1);
+
+        }
+        public void ReverseArray(int[] nums, int i, int j)
+        {
+            while (i <= j)
+            {
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+                i++;
+                j--;
+            }
+        }
+        #endregion
     }
 }
