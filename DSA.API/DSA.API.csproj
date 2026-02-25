@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DSA.Array\DSA.Array.csproj" />
     <ProjectReference Include="..\DSA.Dictonary\DSA.Dictonary.csproj" />
+    <ProjectReference Include="..\DSA.Linq\DSA.Linq.csproj" />
     <ProjectReference Include="..\DSA.Stack\DSA.Stack.csproj" />
     <ProjectReference Include="..\DSA.String\DSA.String.csproj" />
   </ItemGroup>
