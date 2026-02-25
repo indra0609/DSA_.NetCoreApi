@@ -1,7 +1,0 @@
-<Solution>
-  <Project Path="DSA.API/DSA.API.csproj" />
-  <Project Path="DSA.Array/DSA.Array.csproj" />
-  <Project Path="DSA.Dictonary/DSA.Dictonary.csproj" />
-  <Project Path="DSA.Stack/DSA.Stack.csproj" Id="8045a3d5-3184-414c-ada1-de8078e288f9" />
-  <Project Path="DSA.String/DSA.String.csproj" />
-</Solution>
