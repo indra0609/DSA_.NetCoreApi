@@ -174,6 +174,13 @@ namespace DSA.API.Controllers
             return Ok(easyArray.FindDuplicate(arr));
         }
 
+        // single-number
+        [HttpPost("SingleNumber")]
+        public IActionResult SingleNumber(int[] arr)
+        {
+            return Ok(easyArray.SingleNumber(arr));
+        }
+
         #endregion
 
 
