@@ -166,6 +166,14 @@ namespace DSA.API.Controllers
         {
             return Ok(easyArray.MissingNumber(arr));
         }
+
+        // find-the-duplicate-number
+        [HttpPost("FindDuplicateNumber")]
+        public IActionResult FindDuplicateNumber(int[] arr)
+        {
+            return Ok(easyArray.FindDuplicate(arr));
+        }
+
         #endregion
 
 
@@ -192,6 +200,7 @@ namespace DSA.API.Controllers
             return Ok(request.Arr);
         }
         #endregion
+
 
         #endregion
     }

@@ -130,8 +130,6 @@ namespace DSA.Array
             }
             return arr;
         }
-
-
         #endregion
 
         #region Rotate array **left by 1**
@@ -440,6 +438,25 @@ namespace DSA.Array
             }
 
             return total - sum;
+        }
+        #endregion
+
+        #region find-the-duplicate-number
+        /*
+         Example 1: Input: nums = [1,3,4,2,2] Output: 2
+         Example 2: Input: nums = [3,1,3,4,2] Output: 3
+         */
+        public int FindDuplicate(int[] nums)
+        {
+            Dictionary<int, int> dc = new Dictionary<int, int>();
+            foreach (int i in nums)
+            {
+                if (dc.ContainsKey(i))
+                    return i;
+                else
+                    dc[i] = 0;
+            }
+            return -1;
         }
         #endregion
     }
